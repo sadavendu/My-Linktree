@@ -1,3 +1,3 @@
 function alertaContato() {
-    alert("Entre em contato pelo e-mail: raalvaren800@gmail.com");
+    alert("Contact me at the email below: raalvaren800@gmail.com");
   }
