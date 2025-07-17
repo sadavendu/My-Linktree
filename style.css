@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trattatello', fantasy;
+    background: linear-gradient(to right, #3412ad, #0401ac);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .perfil {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 6px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .links a {
+    display: block;
+    background-color: white;
+    color: #4a00e0;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px auto;
+    width: 220px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .links a:hover {
+    background-color: #ddd;
+  }
